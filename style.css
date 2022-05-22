@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.form__input.error::placeholder {
+    color: red;
+    font-weight: 700;
+}
+#form {
+    color: #FFFFFF;
+    height: 100vh;
+    max-width: 555px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50px;
+    background: linear-gradient(180deg, #0aa2c5 0%, rgb(14, 11, 255) 100%), #01092f;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://s1.tchkcdn.com/g-WZ4dDXxHHyUSrwV1DA99Jw/4/24408/640x640/w/0/5eaa15b7ec9e9fbf35dbf6dcfe8bf929_16311.jpg");
+}
+/*.info-weather{*/
+/*    display: none;*/
+/*}*/
+.info-weather{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    padding-top: 20px;
+}
+.name{
+    margin: 33px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.region{
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.info-weather__title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 17px;
+    padding-bottom: 20px;
+}
+.info-weather span{
+    font-weight: 400;
+    font-size:13px ;
+    line-height:13px ;
+}
+.form__input{
+    caret-color: transparent;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    color:#0aa2c5;
+}
+.form__input::placeholder{
+    color: #0aa2c5;
+}
+.form__btn{
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    border: 3px solid #0aa2c5;
+    color: #0aa2c5;
+    transition: 0.7s all;
+}
+.form__btn:hover{
+    background-color: transparent;
+}
+.info-weather__circle {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    background: #d2dada;
+    box-shadow: 0 28px 36px rgba(96, 209, 234, 0.4);
+    border-radius: 50%;
+    margin: 0 auto;
+    color: #000;
+    text-align: center;
+}
+.temp{
+    font-weight: 300;
+    font-size: 88px;
+    line-height: 122px;
+    padding-top: 74px;
+}
+.image{
+    top: -4px;
+    height: 120px;
+    position: absolute;
+    right: 59px;
+}
+.form__search{
+    display: flex;
+    justify-content: space-around;
+    padding: 31px ;
+}
+.info-weather__left, .info-weather__right{
+    display: flex;
+    flex-direction: column;
+}
+.info-weather__title{
+    padding-top:20px ;
+}

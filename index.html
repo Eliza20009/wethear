@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<form id="form">
+    <div class="form__search">
+        <input class="form__input" type="text" placeholder="Введите название">
+        <button class="form__btn" type="submit">Узнать погоду</button>
+    </div>
+    <div class="info-name">
+        <h1 class="name"></h1>
+        <span class="region"></span>
+    </div>
+    <div class="info-weather__circle">
+        <p class="temp"></p>
+        <img src="" alt="" class="image">
+        <p class="tempStatus"></p>
+    </div>
+    <div class="info-weather">
+        <div class="info-weather__left">
+            <p class="info-weather__title">Давление</p>
+            <span class="pressure"></span>
+            <p class="info-weather__title">Скорость ветра</p>
+            <span class="speedWind"></span>
+            <p class="info-weather__title">Восход</p>
+            <span class="sunrise"></span>
+        </div>
+        <div class="info-weather__right">
+            <p class="info-weather__title">Влажность</p>
+            <span class="humidity"></span>
+            <p class="info-weather__title">Видимость</p>
+            <span class="visibility"></span>
+            <p class="info-weather__title">Заход</p>
+            <span class="sunset"></span>
+        </div>
+    </div>
+</form>
+<script src="main.js"></script>
+</body>
+</html>
